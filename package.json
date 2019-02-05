@@ -1,0 +1,20 @@
+{
+  "name": "portal-template-library",
+  "version": "1.0.0",
+  "description": "A collection of Service Portal page templates and themes for the Innovation Library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platform-experience/portal-template-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/platform-experience/portal-template-library/issues"
+  },
+  "homepage": "https://github.com/platform-experience/portal-template-library#readme"
+}
