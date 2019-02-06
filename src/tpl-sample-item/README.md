@@ -1,13 +1,3 @@
-# Sample Item
-
-## Description
-
-> None
-
-## Screenshot
-
-![Sample Item](https://raw.githubusercontent.com/platform-experience/portal-template-library/master/src/tpl-sample-item/images/tpl-sample-item.png)
-
 ## Additional Information/Notes
 
 > None
