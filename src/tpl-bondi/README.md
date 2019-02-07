@@ -49,13 +49,15 @@ To take advantage of some of the widget's uniques unique capabilites the followi
 }]
 ```
 
-* __CSM Virtual Agent vs Live Connect __ -   The Virtual Agent will only launch if the Portal Record's 'Quick start config' is configured with a Secondary Menu.  If a Secondary Menu is not present then the Live Chat will still show in the left navigation list, however; it will only launch the Live Connect at this time. __Note__: the 'Chat Queue' for the portal must also be configured.  Example 'Quick start config':
+* __CSM Virtual Agent vs Live Connect__ -   The Virtual Agent will only launch if the Portal Record's 'Quick start config' is configured with a Secondary Menu.  If a Secondary Menu is not present then the Live Chat will still show in the left navigation list, however; it will only launch the Live Connect at this time. __Note__: the 'Chat Queue' for the portal must also be configured.  Example 'Quick start config':
 ```
 [{
 	"secondaryMenu": {"sys_id": "53616d1e3b013200367aee1234efc439"},
 	"isCSM":true,
 	"default_interaction_queue": "0e4d82d0738513000f4012562ef6a772"
-}]```
+}]
+```
+
 ---
 
 #### Highlight User Assets
