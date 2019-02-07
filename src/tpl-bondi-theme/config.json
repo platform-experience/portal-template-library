@@ -1,0 +1,21 @@
+{
+  "active": true,
+  "category": "Themes",
+  "common-name": "Bondi Theme",
+  "compatibility": [
+    "London"
+  ],
+  "contributors": [
+    "Jacob Shemkovitz",
+    "Chris Jeffree"
+  ],
+  "keywords": [
+    "Service Portal",
+    "Theme"
+  ],
+  "name": "tpl-bondi-theme",
+  "publishing-goal": "Update set",
+  "solution-details": "",
+  "type": "Theme",
+  "version": "1.2.0"
+}
