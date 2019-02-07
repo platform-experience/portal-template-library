@@ -1,0 +1,25 @@
+{
+"active": true,
+"category": "General",
+"common-name": "Bondi",
+"compatibility": [
+    "London",
+    "Madrid"
+],
+"contributors": [
+    "Chris Stoll",
+    "Jacob Shemkovitz",
+    "Sree Bhandaram",
+    "AJ Siegel"
+],
+"keywords": [
+    "Service Portal",
+    "Template",
+    "Theme"
+],
+"name": "tpl-bondi",
+"publishing-goal": "Update set",
+"solution-details": "",
+"type": "Template",
+"version": "1.0.0"
+}
