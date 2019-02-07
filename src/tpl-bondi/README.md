@@ -1,15 +1,14 @@
 ## Additional Information/Notes
 
 This __template__ package is contains:
-* Page Layouts – Three (3) layouts that can be used as the portal home page
-  * Primary : __pg_home_bondi__ - pre-configured with widgets below
-  * Two (2) alternates : __pg_home_alt_1_bondi__ & __pg_home_alt_2_bondi__
- 
- 
-* Bondi Theme Record
 
+Page Layouts – Three (3) layouts that can be used as the portal home page
+ * Primary : __pg_home_bondi__ - pre-configured with widgets below
+ * Two (2) alternates : __pg_home_alt_1_bondi__ & __pg_home_alt_2_bondi__
 
-* Seven (7) Widgets – 
+Bondi Theme Record
+
+Seven (7) Widgets – 
   * Navigation Left-Collapsible ( __Desktop Only__ ) <br/>
    ** _Mobile generates as a standard mobile drop-down header_
   * Welcome Widget - Time of Day Greeting
@@ -17,6 +16,7 @@ This __template__ package is contains:
   * Big / Small - Link To Button widgets (2)
   * Highlight User Assets
   * Popular and My Recent Items
+
 _All widgets also available as single downloads in the library_
 
 ## Installation
