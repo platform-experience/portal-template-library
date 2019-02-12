@@ -1,0 +1,21 @@
+{
+  "active": true,
+  "category": "Themes",
+  "common-name": "Bootswatch Themes",
+  "compatibility": [
+    "London"
+  ],
+  "contributors": [
+    "Jacob Shemkovitz"
+  ],
+  "keywords": [
+    "Service Portal",
+    "Theme",
+    "Bootswatch"
+  ],
+  "name": "tpl-bootswatch-themes",
+  "publishing-goal": "Update set",
+  "solution-details": "",
+  "type": "Theme",
+  "version": "1.0.0"
+}
