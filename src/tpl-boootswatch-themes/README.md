@@ -16,13 +16,6 @@ Themes included are:
 
 Service-Portal-specific elements are also assigned properties extending the values of each theme. Any fonts specific to the themes are also included as links to Google Fonts, associated by CSS Include.
 
-[//]: <> (SP-specific properties:)
-[//]: <> (* set defaults for some homepage variables and elements.)
-[//]: <> (* coordinates most input/form elements' properties – colors, height, etc.)
-[//]: <> (* styles some configuration elements for readability.)
-[//]: <> (* directly styles panels and alerts, bypassing Service Portal's mixins.)
-[//]: <> (* restyles panels with white-border `b` class to context-based border color.)
-
 Note: The hierarchy of Service Portal's CSS/Sass build appears to be gaining some additional options starting in Madrid, so property assignment will likely be properly broken out into separate include records for that release.
 
 ## Installation
