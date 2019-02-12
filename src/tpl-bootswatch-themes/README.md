@@ -1,6 +1,6 @@
 ## Additional Information/Notes
 
-This is a set of 9 Service Portal themes adapted from the [Bootswatch]('https://bootswatch.com/3/') collection of open-source Bootstrap themes. Both theme variables and assignments of properties are included in a theme record. (Service Portal gives the property assignments extra specificity by reapplying them after any page, instance, or widget styling.)
+This is a set of 9 Service Portal themes adapted from the [Bootswatch](https://bootswatch.com/3/) collection of open-source Bootstrap themes. Both theme variables and assignments of properties are included in a theme record. (Service Portal gives the property assignments extra specificity by reapplying them after any page, instance, or widget styling.)
 
 Themes included are:
 
