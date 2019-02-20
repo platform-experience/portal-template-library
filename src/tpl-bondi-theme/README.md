@@ -23,7 +23,7 @@ Along with their associated pages:
 
 ## Installation
 
-Download and install update set **[tpl-bondi-theme.u-update-set.xml](https://github.com/platform-experience/portal-template-library/blob/master/src/tpl-bondi-theme/tpl-bondi-theme.u-update-set.xml)**
+Download and install update set **[tpl-bondi-theme.u-update-set.xml](https://raw.githubusercontent.com/platform-experience/portal-template-library/master/src/tpl-bondi-theme/tpl-bondi-theme.u-update-set.xml)**
 
 * SN Product Documentation - ['Load a customization from a single XML file'](https://docs.servicenow.com/bundle/kingston-application-development/page/build/system-update-sets/task/t_SaveAnUpdateSetAsAnXMLFile.html)
 

@@ -22,7 +22,7 @@ _Click on the widgets above to view more info and download individually_
 
 ## Installation
 
-Download and install update set **[tpl-bondi.u-update-set.xml](https://github.com/platform-experience/portal-template-library/blob/master/src/tpl-sample-item/tpl-bondi.u-update-set.xml)**
+Download and install update set **[tpl-bondi.u-update-set.xml](https://raw.githubusercontent.com/platform-experience/portal-template-library/master/src/tpl-bondi/tpl-bondi.u-update-set.xml)**
 
 * SN Product Documentation - ['Load a customization from a single XML file'](https://docs.servicenow.com/bundle/kingston-application-development/page/build/system-update-sets/task/t_SaveAnUpdateSetAsAnXMLFile.html)
 
