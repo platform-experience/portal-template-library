@@ -9,15 +9,16 @@ Page Layouts – Three (3) layouts that can be used as the portal home page
 Bondi Theme Record
 
 Seven (7) Widgets – 
-  * Navigation Left-Collapsible ( __Desktop Only__ ) <br/>
+  * [Navigation Left-Collapsible](https://sc.service-now.com/snds?state=widget-detail&sys_id=c2636430db7bef40b4d974921f9619a2) ( __Desktop Only__ ) <br/>
    ** _Mobile generates as a standard mobile drop-down header_
-  * Welcome Widget - Time of Day Greeting
-  * Typeahead – Flat and Rounded Ends
-  * Big / Small - Link To Button widgets (2)
-  * Highlight User Assets
-  * Popular and My Recent Items
+  * [Welcome Widget - Time of Day Greeting](https://sc.service-now.com/snds?state=widget-detail&sys_id=18e86f42db676b00b41f70921f9619e5)
+  * [Typeahead – Flat and Rounded Ends](https://sc.service-now.com/snds?state=widget-detail&sys_id=852e445adb2f6b00b41f70921f961905)
+  * [Big - Link To Button](https://sc.service-now.com/snds?state=widget-detail&sys_id=c7ac623ddb676b00b4d974921f9619dc)
+  * [Small - Link To Button](https://sc.service-now.com/snds?state=widget-detail&sys_id=78c25fc2dba763403eb8f4bbaf961937)
+  * [Highlight User Assets](https://sc.service-now.com/snds?state=widget-detail&sys_id=a7ab506adb6feb00b41f70921f961946)
+  * [Popular and My Recent Items](https://sc.service-now.com/snds?state=widget-detail&sys_id=65485c5adb63a3403eb8f4bbaf961963)
 
-_All widgets also available as single downloads in the library_
+_Click on the widgets above to view more info and download individually_
 
 ## Installation
 
@@ -57,10 +58,3 @@ To take advantage of some of the widget's uniques unique capabilites the followi
 	"default_interaction_queue": "0e4d82d0738513000f4012562ef6a772"
 }]
 ```
-
----
-
-#### Highlight User Assets
----
-
-__Note__: You will need to reset the configured Instance Option for the table to correct the 'Missing Configuration' warning.  Just reselect the 'Asset' table from the option picker and click 'Save'
