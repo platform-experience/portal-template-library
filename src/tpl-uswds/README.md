@@ -68,7 +68,7 @@ The Service Portal record's **Quick start config** is used to identify when diff
   }
 }]
 ```
-#### Quick start config
+### Quick start config
 
 Explanation of the JSON structure and variables in the **Quick start config**
  * **auto_menu** - if no menu is identified then generate menu items for the KB and Service Catalog associated with the portal
