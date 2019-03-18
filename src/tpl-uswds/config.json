@@ -1,0 +1,22 @@
+{
+"active": true,
+"category": "General",
+"common-name": "US Web Design System (USWDS)",
+"compatibility": [
+    "London",
+    "Madrid"
+],
+"contributors": [
+    "Chris Stoll"
+],
+"keywords": [
+    "Service Portal",
+    "Template",
+    "Theme"
+],
+"name": "tpl-uswds",
+"publishing-goal": "Update set",
+"solution-details": "",
+"type": "Template",
+"version": "1.0.0"
+}
