@@ -1,6 +1,8 @@
 ## Additional Information/Notes
 
-The current state of this template is to provide the CSS, Header, and Footer for rapid prototyping of Service Portals.  **This template should not be used to produce 'Production Ready' portals.** However; it can give you a good jump start. 
+The current state of this template is to provide the CSS, Header, and Footer for rapid prototyping of Service Portals.
+
+**This template should not be used to produce 'Production Ready' portals.** However; it can give you a good jump start. 
 
 You can read more about this standard from [their site](https://designsystem.digital.gov/).
 
@@ -45,31 +47,9 @@ The USWDS standard accounts for multiple presentation formats of [Header](https:
 
 The Service Portal record's **Quick start config** is used to identify when different elements of the Header and Footer are to be used.
 
-```
-[{
-  "auto_menu": false,
-  "secondaryMenu": {"sys_id": "07c3a78f4fc83b008272ece24210c718"},
-  "secondaryWishCartList": true,
-  "fluid" : true,
-  "megamenu" : true,
-  "footerMenu" : {
-	"sys_id": "d5cc2ef34f44fb008272ece24210c7a2",
-    "contact" : {
-		"center" : "USWDS PMO",
-		"phone" : { "text" : "(800) CALL-WDS", "dial" : "1-800-555-1212" },
-		"email" : "info@uswds.gov"
-	},
-	"social": [
-		{"name":"Facebook", "link":"https://www.facebook.com"},
-		{"name":"Twitter", "link":"https://www.twitter.com"},
-		{"name":"YouTube", "link":"https://www.youtube.com"},
-		{"name":"RSS", "link":"https://en.wikipedia.org/wiki/RSS"}
-	]
-  }
-}]
-```
 
-### Quick start config
+
+## Quick start config
 
 Explanation of the JSON structure and variables in the **Quick start config**
  * **auto_menu** - if no menu is identified then generate menu items for the KB and Service Catalog associated with the portal
