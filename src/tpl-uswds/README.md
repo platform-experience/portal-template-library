@@ -1,5 +1,11 @@
 ## Additional Information/Notes
 
+To read and learn more about the **21st Century Integrated Digital Experience Act** [click here](https://www.congress.gov/bill/115th-congress/house-bill/5759/text).
+
+__"Section 3, Part (e) Compliance With United States Website Standards. — Any website of an executive agency that is made available to the public after the date of enactment of this Act shall be in compliance with the website standards of the [Technology Transformation Services of the General Services Administration](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/office-of-products-and-programs)."__
+
+----
+
 The current state of this template is to provide the CSS, Header, and Footer for rapid prototyping of Service Portals.
 
 **This template should not be used to produce 'Production Ready' portals.** However; it can give you a good jump start. 
