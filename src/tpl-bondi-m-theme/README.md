@@ -21,18 +21,20 @@ Along with their associated pages:
 * Forms and input elements – fields coordinated in size & style
 * Other individual views: Ticket pages, Article view, User Profile, etc.
 
+Theme has not been tested with all of these elements upon upgrade, so some adjustments may be needed for newer components with off-Bootstrap styles.
+
 ## Release Information
 
-The Bondi theme has also been reconfigured for Service Portal in Madrid and later releases, using more efficient packaging of stylesheets and including variables used in newer versions of portal components. That version is available in the library as 'Bondi Theme for Madrid+'. This version should generally continue to work if used in upgraded instances, but some style inconsistancies may be seen.
+Note that this is a reconfiguration of the Bondi theme that was previously published for ServiceNow's London release, now also appropriately labeled as 'Bondi Theme for London' in this library. This version uses CSS Include records to associate stylesheets directly, lowering the burden of processing from a single Theme document, and allowing for clearer organization of variables. This version will not work in London or earlier releases.
 
 ## Installation
 
-Download and install update set **[tpl-bondi-theme.u-update-set.xml](https://raw.githubusercontent.com/platform-experience/portal-template-library/master/src/tpl-bondi-theme/tpl-bondi-theme.u-update-set.xml)**
+Download and install update set **[tpl-bondi-m-theme.u-update-set.xml](https://raw.githubusercontent.com/platform-experience/portal-template-library/master/src/tpl-bondi-m-theme/tpl-bondi-m-theme.u-update-set.xml)**
 
 * SN Product Documentation - ['Load a customization from a single XML file'](https://docs.servicenow.com/bundle/kingston-application-development/page/build/system-update-sets/task/t_SaveAnUpdateSetAsAnXMLFile.html)
 
 ## Configuration
 
-Open the portal record you would like to try the Bondi theme with, and select 'Bondi' in the Themes field.
+Open the portal record you would like to try the Bondi theme with, and select 'Bondi M+' in the Themes field.
 
 Note that this theme is not associated with a Header or Footer record – to use together with the sidebar navigation, please download the Bondi Template, which includes them together. Or use the header of your choice – one can be selected in Header field of the theme record.

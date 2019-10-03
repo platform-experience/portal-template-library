@@ -1,9 +1,10 @@
 {
   "active": true,
   "category": "Themes",
-  "common-name": "Bondi Theme for London",
+  "common-name": "Bondi Theme for Madrid+",
   "compatibility": [
-    "London"
+    "Madrid",
+    "New York"
   ],
   "contributors": [
     "Jacob Shemkovitz",
@@ -13,9 +14,9 @@
     "Service Portal",
     "Theme"
   ],
-  "name": "tpl-bondi-theme",
+  "name": "tpl-bondi-m-theme",
   "publishing-goal": "Update set",
   "solution-details": "",
   "type": "Theme",
-  "version": "1.2.0"
+  "version": "2.0"
 }
