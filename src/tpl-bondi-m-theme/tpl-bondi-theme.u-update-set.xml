@@ -1,0 +1,2030 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-10-03 17:53:36">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Bondi Theme 2.0 for Madrid+</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>6846bb81db500c1090c6d6a75e961998</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>8d783305db500c1090c6d6a75e961977</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_625b9a74db50c81090c6d6a75e961940</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>4</order><sp_css_include display_value="Bondi Bootstrap components">9b0b1e34db50c81090c6d6a75e96191c</sp_css_include><sp_theme display_value="Bondi M+">7b29d2b0db50c81090c6d6a75e961957</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 16:28:20</sys_created_on><sys_id>625b9a74db50c81090c6d6a75e961940</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Bondi Bootstrap components.Bondi M+</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_625b9a74db50c81090c6d6a75e961940</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-03 14:31:21</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>328620500</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>01783305db500c1090c6d6a75e961979</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d92084efd0000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Bondi Bootstrap components.Bondi M+</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>6a2acfcdf19cc81000196ca8d15e687d</update_guid>
+<update_guid_history>6a2acfcdf19cc81000196ca8d15e687d:328620500,cd2acfcd249cc81072fa8d70ce31ac75:-101725773,2e5b9a743050c81005cb7a7bd25eee41:-449044546</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_a72d66f0db90c81090c6d6a75e9619c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>// widget-specific theming&#13;
+&#13;
+// Important - navbar ridiculousness&#13;
+header[role="banner"],&#13;
+.nav &gt; li &gt; a {&#13;
+  max-height: $navbar-height !important;&#13;
+}&#13;
+.navbar-brand {&#13;
+  img {&#13;
+    // top and bottom margins are removed from $sp-logo-max-height instead&#13;
+    margin-top: 0 !important;&#13;
+    margin-bottom: 0 !important;&#13;
+  }&#13;
+  padding-bottom: 0 !important;&#13;
+  max-height: $navbar-height !important;&#13;
+}&#13;
+.navbar .toggle-dropdown {&#13;
+  height: $navbar-height !important;&#13;
+}&#13;
+&#13;
+// SC Category Page and SC Popular Items (similar)&#13;
+.vf2ff0622d7000200a9ad1e173e24d4f3,&#13;
+.vcbcacf13cb21020000f8d856634c9ca0 {&#13;
+  .panel-body {&#13;
+    padding: 30px 20px;&#13;
+  }&#13;
+}&#13;
+// SC Popular Items&#13;
+.vcbcacf13cb21020000f8d856634c9ca0 {&#13;
+  h1 {&#13;
+    font-weight: normal !important;&#13;
+  }&#13;
+}&#13;
+&#13;
+// SC Category Page sc-category&#13;
+.vf2ff0622d7000200a9ad1e173e24d4f3 {&#13;
+&#13;
+  h1 {&#13;
+    font-size: $font-size-h2 !important;&#13;
+  }&#13;
+  h2 {&#13;
+    margin-bottom: 20px !important;&#13;
+  }&#13;
+  &#13;
+  .col-xs-9 {&#13;
+    margin-bottom: 15px;&#13;
+  }&#13;
+}&#13;
+&#13;
+// KB Categories&#13;
+.vee307070d7201200a9addd173e24d4da {&#13;
+  .panel-body &gt; .list-group {&#13;
+    background-color: $list-group-bg;&#13;
+  }&#13;
+}&#13;
+&#13;
+// Catalog Item&#13;
+.v3c29786e87133200e0ef0cf888cb0bdf {&#13;
+  .sc-fixed {&#13;
+    &gt; .panel {&#13;
+      background-color: $body-bg-2 !important;&#13;
+    }&#13;
+    &gt; .sc-item-error-messages {&#13;
+      max-height: none;&#13;
+    }&#13;
+  }&#13;
+  .inline-cart &gt; .b-b {&#13;
+    border-bottom: none;&#13;
+  }&#13;
+}&#13;
+&#13;
+// Ticket Conversations (Timeline)&#13;
+.v85357f52cb30020000f8d856634c9c24 {&#13;
+  .timeline &gt; li &gt; .timeline-panel {&#13;
+    background-color: $body-bg;&#13;
+    border: none;&#13;
+    box-shadow: none;&#13;
+    &amp;:before {&#13;
+      content: none;&#13;
+    }&#13;
+    &amp;:after {&#13;
+      border-right-color: $body-bg;&#13;
+      border-left-color: $body-bg;&#13;
+    }&#13;
+  }&#13;
+}&#13;
+&#13;
+// Ticket Fields&#13;
+.v5736bf52cb30020000f8d856634c9c2d {&#13;
+  .panel .panel-body {&#13;
+    background-color: $body-bg-2;&#13;
+  }&#13;
+}&#13;
+&#13;
+// Ticket Location&#13;
+.v2795e5e2ff123100ba13ffffffffff84 {&#13;
+  .panel-heading {&#13;
+    border-radius: $panel-border-radius !important;&#13;
+    padding: $panel-heading-padding !important;&#13;
+  }&#13;
+}&#13;
+&#13;
+// Service Status Legend&#13;
+.vf9bda712d7330200a9addd173e24d4c8 {&#13;
+  .panel .panel-body {&#13;
+    margin: 0;&#13;
+  }&#13;
+}&#13;
+&#13;
+// Data Table&#13;
+.v5001b062d7101200b0b044580e6103eb {&#13;
+  &#13;
+  // Breadcrumbs&#13;
+  &gt; .panel &gt; .panel-body &gt; .filter-breadcrumbs {&#13;
+    background-color: $body-bg-2;&#13;
+    color: $text-color;&#13;
+    .text-muted {&#13;
+      color: $text-muted;&#13;
+    }&#13;
+    a.text-muted:hover {&#13;
+      color: $link-hover-color;&#13;
+    }&#13;
+    .filter-header {&#13;
+      height: auto;&#13;
+    }&#13;
+  }&#13;
+}&#13;
+&#13;
+// KB Search&#13;
+.vff26f2b1db12220099f93691f0b8f5ce .kb-summary-block {&#13;
+  border: none !important;&#13;
+}&#13;
+&#13;
+// KB View 2&#13;
+.vc254be50d7201200a9addd173e24d410 {&#13;
+  .panel.panel-default {&#13;
+    background-color: $body-bg-2;&#13;
+  }&#13;
+}&#13;
+&#13;
+// User Profile&#13;
+.v6e6ac664d710120023c84f80de610318 {&#13;
+  .panel &gt; .body {&#13;
+    background-color: $body-bg-2;&#13;
+  }&#13;
+  .panel.panel-default &gt; .panel-body {&#13;
+    padding: 50px 25px 50px 50px;&#13;
+    color: #fff;&#13;
+    .text-muted {&#13;
+      color: rgba(#fff, .7);&#13;
+    }&#13;
+    a.text-muted:hover,&#13;
+    [ng-click].text-muted:hover,&#13;
+    a:hover .text-muted,&#13;
+    [ng-click]:hover .text-muted {&#13;
+      color: rgba(#fff, .9);&#13;
+    }&#13;
+    background-color: $brand-primary;&#13;
+  }&#13;
+  button.btn.send-message {&#13;
+    background: none;&#13;
+    color: transparent;&#13;
+    border: none;&#13;
+    margin-top: -120px;&#13;
+    &amp;:before {&#13;
+      display: block;&#13;
+      font: normal normal normal 14px/1 FontAwesome;&#13;
+      content: "\f030";&#13;
+      font-size: 1.2em;&#13;
+      color: #fff;&#13;
+      background-color: #EB158C;&#13;
+      border-radius: 50%;&#13;
+      width: 45px;&#13;
+      height: 45px;&#13;
+      padding: 13px 10px;&#13;
+      position: absolute;&#13;
+      margin-left: 80px;&#13;
+      margin-top: 20px;&#13;
+    }&#13;
+  }&#13;
+}&#13;
+&#13;
+// List Form&#13;
+.page-fdefd94247201200ba13a5554ee490eb {&#13;
+  .v5001b062d7101200b0b044580e6103eb &gt; .panel &gt; .panel-heading,&#13;
+  .vfd1f4ec347730200ba13a5554ee490c0 &gt; .panel-shift &gt; .panel &gt; .panel-heading {&#13;
+    height: auto;&#13;
+    padding: ($panel-heading-padding / 2) $panel-heading-padding;&#13;
+  }&#13;
+}&#13;
+&#13;
+// Faceted Search&#13;
+.v12fbe2d287330300a785940307cb0b1b {&#13;
+  .btn.disabled {&#13;
+    color: $btn-link-disabled-color;&#13;
+  }&#13;
+  .inner-facet-list .sp-list-menu .panel .panel-heading {&#13;
+    background-color: darken($body-bg-2, 2%);&#13;
+  }&#13;
+  .inner-facet-list .sp-list-menu .panel .panel-content {&#13;
+    background-color: darken($body-bg-2, 4%);&#13;
+  }&#13;
+  .b-b.panel-body:last-child {&#13;
+    border-bottom: none;&#13;
+  }&#13;
+  .panel .search-result-xs {&#13;
+    margin: 0;&#13;
+  }&#13;
+}&#13;
+@media (max-width: 767px) {&#13;
+  .search-overlay.panel .panel-heading {&#13;
+    background-color: $body-bg;&#13;
+    border-radius: 0;&#13;
+    border: 1px solid $gray-lighter;&#13;
+    border-left: none;&#13;
+    border-right: none;&#13;
+  }&#13;
+  .search-overlay.panel &gt; * {&#13;
+    margin-bottom: 0;&#13;
+  }&#13;
+}</css><name>Widget-specific Normalization</name><sys_class_name>sp_css</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 17:47:13</sys_created_on><sys_id>a72d66f0db90c81090c6d6a75e9619c0</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Widget-specific Normalization</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_a72d66f0db90c81090c6d6a75e9619c0</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-03 15:11:57</sys_updated_on></sp_css></record_update>]]></payload>
+<payload_hash>939818573</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>09783305db500c1090c6d6a75e96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d922d7d6a0000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Widget-specific Normalization</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>6173df85e6dcc8101ffcdc363dfc0677</update_guid>
+<update_guid_history>6173df85e6dcc8101ffcdc363dfc0677:939818573,c0829f45cedcc8100439fb82285ea691:668248810,4561174500dcc810c6e06531b3c7d892:-1243463564,01c0df053cdcc81006cc7a3e8d32f76b:-18402466,e3fdc38173dcc8104cdc1f4fbbdfb08c:-747506690,858ccb4123dcc810baa5fcfc5ddb031d:-18402466,b21b87011adcc810eb9be9d8c6a825c6:-1756707754,0aba8fcd1e9cc810b7cffc80b3462255:-967886730,74ba47cd719cc8108179a5af0572daaf:382254660,f45e4fb85ad0c81043f5ee40ed207077:164281146,0a6d2af03890c8106a1d5155dce737d6:275838234</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_05ef6674db90c81090c6d6a75e961918</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>$body-bg-2: #f2f2f2 !default;&#13;
+&#13;
+#uiNotificationContainer {&#13;
+  margin-top: 120px !important;&#13;
+}&#13;
+&#13;
+.navbar {&#13;
+  border-bottom: none !important;&#13;
+}&#13;
+&#13;
+.homepage-quicklinks {&#13;
+  background-color: $quicklinks-background;&#13;
+  color: inherit;&#13;
+}&#13;
+.iconlink h2 {&#13;
+  font-weight: $headings-font-weight;&#13;
+}&#13;
+div.breadcrumbs-container {&#13;
+  border-bottom: 1px solid $table-border-color;&#13;
+  background-color: $body-bg-2;&#13;
+}&#13;
+&#13;
+// Homepage Search&#13;
+.v200fbd96cb20020000f8d856634c9ca1 {&#13;
+  #homepage-search {&#13;
+    padding: 50px 0 !important;&#13;
+    &gt; div {&#13;
+      padding: 0 !important;&#13;
+      &gt; * {&#13;
+        text-align: left !important;&#13;
+      }&#13;
+    }&#13;
+  }&#13;
+}&#13;
+&#13;
+// Catalog Homepage Search&#13;
+.ve709a97287580300e0ef0cf888cb0bdd {&#13;
+  #homepage-search {&#13;
+    padding: 50px 0 !important;&#13;
+    &gt; div {&#13;
+      padding: 0 !important;&#13;
+      &gt; * {&#13;
+        text-align: left !important;&#13;
+      }&#13;
+    }&#13;
+    .search-bar {&#13;
+      width: 100%;&#13;
+    }&#13;
+  }&#13;
+}&#13;
+&#13;
+// Community Homepage Search&#13;
+.vb6ce882b535032007a97e192d5dc3454 .cm-main-search {&#13;
+  .cm-search-box .form-control {&#13;
+    border: none;&#13;
+    box-shadow: none;&#13;
+    border-radius: $input-height-base / 2 !important;&#13;
+  }&#13;
+  .cm-search-box i.cm-search-icon {&#13;
+    border: none !important;&#13;
+  }&#13;
+}&#13;
+&#13;
+// Community Typeahead Search&#13;
+.v569e31e25b7322007223286411f91a5b { }&#13;
+&#13;
+// Knowledge Homepage Search&#13;
+.v04ec050ddb53220099f93691f0b8f538 .kb-banner-5eb91a13db50320099f93691f0b8f5ae .cm-main-search {&#13;
+  &#13;
+  .cm-search-box #kb_home_search_form {&#13;
+    input {&#13;
+      border: none !important;&#13;
+      box-shadow: none;&#13;
+      border-radius: $input-height-base / 2;&#13;
+    }&#13;
+      input::placeholder {&#13;
+      color: $gray;&#13;
+    }&#13;
+  }&#13;
+}&#13;
+&#13;
+// Typeahead Search, when used on homepages&#13;
+#homepage-search .vfa20ec02cb31020000f8d856634c9ce9 {&#13;
+  margin-top: 25px;&#13;
+  input::placeholder {&#13;
+    color: $gray;&#13;
+  }&#13;
+&#13;
+  .form-control,&#13;
+  .input-group-btn &gt; .btn {&#13;
+    background-color: mix($sp-tagline-color, white, 5%);&#13;
+    border: none;&#13;
+    box-shadow: none;&#13;
+  }&#13;
+  input,&#13;
+  .input-group &gt; .form-control,&#13;
+  .input-group &gt; .input-group-addon,&#13;
+  .input-group &gt; .input-group-btn &gt; .btn {&#13;
+    border-radius: $input-height-large / 2;&#13;
+  }&#13;
+  .input-group &gt; *:first-child,&#13;
+  .input-group &gt; .input-group-btn:first-child &gt; .btn {&#13;
+    border-bottom-right-radius: 0;&#13;
+    border-top-right-radius: 0;&#13;
+  }&#13;
+  .input-group &gt; *:last-child,&#13;
+  .input-group &gt; .input-group-btn:last-child &gt; .btn {&#13;
+    border-bottom-left-radius: 0;&#13;
+    border-top-left-radius: 0;&#13;
+  }&#13;
+}</css><name>Bondi SP Elements</name><sys_class_name>sp_css</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 17:58:41</sys_created_on><sys_id>05ef6674db90c81090c6d6a75e961918</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Bondi SP Elements</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_05ef6674db90c81090c6d6a75e961918</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-03 15:18:40</sys_updated_on></sp_css></record_update>]]></payload>
+<payload_hash>1338060457</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>0d783305db500c1090c6d6a75e961979</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d9233a1580000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Bondi SP Elements</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>eff49709b5dcc810ee69426a0f2b0332</update_guid>
+<update_guid_history>eff49709b5dcc810ee69426a0f2b0332:1338060457,1d4f3e305dd0c810dae5225419d1686e:-844087699,9f4132b4b390c810beff80dade002bbb:599290230,bec032b49490c8100c91627fed75d296:2123796766,820072347590c81001d78cc9e21df916:1272193005</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_theme_7b29d2b0db50c81090c6d6a75e961957</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme"><sp_theme action="INSERT_OR_UPDATE"><css_variables>// == Bondi 2.0 == Madrid+&#13;
+&#13;
+// Theme designed by Chris Jeffree&#13;
+// Stylesheet developed by Jacob Shemkovitz&#13;
+// following Bootstrap theme framework&#13;
+// and variables used in Service Portal Madrid+&#13;
+&#13;
+// == TOC&#13;
+// 1. Global Variables&#13;
+// 2. Service Portal Branding Variables&#13;
+// 3. Bootstrap Variables&#13;
+// 4. Madrid+ Variables&#13;
+// ======&#13;
+&#13;
+&#13;
+// 1: Global Variables&#13;
+// --------------------------------------------------&#13;
+&#13;
+// Bootstrap variables defined here to be accessed by SP Variables&#13;
+$navbar-height: 60px !default;&#13;
+$body-bg: #fff !default;&#13;
+&#13;
+//** Bondi Custom Variable: Secondary background color&#13;
+//## defines color for boxes set against $body-bg&#13;
+//## e.g. white over gray, or gray over white&#13;
+$body-bg-2: #f2f2f2 !default;&#13;
+&#13;
+&#13;
+// 2: Service Portal Branding Variables&#13;
+// --------------------------------------------------&#13;
+&#13;
+$sp-homepage-bg: $body-bg !default;&#13;
+$sp-tagline-color: #fff !default;&#13;
+$sp-navbar-divider-color: transparent !default;&#13;
+$sp-logo-margin-x: 10px !default;&#13;
+$sp-logo-margin-y: 10px !default;&#13;
+$quicklinks-background: $body-bg-2 !default;&#13;
+&#13;
+// this will be fit to space in navbar, no need to manually define max height.&#13;
+$sp-logo-max-height: $navbar-height - (2 * $sp-logo-margin-x);&#13;
+$sp-logo-max-width: 200px !default;&#13;
+&#13;
+&#13;
+// 3: Bootstrap Variables&#13;
+// --------------------------------------------------&#13;
+&#13;
+//== Colors&#13;
+//&#13;
+//## Gray and brand colors for use across Bootstrap.&#13;
+&#13;
+$gray-base:              #000 !default;&#13;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222&#13;
+$gray-dark:              #323232 !default;&#13;
+$gray:                   #4F4F4F !default;&#13;
+$gray-light:             #979797 !default;&#13;
+$gray-lighter:           #F4F4F4 !default;&#13;
+&#13;
+$brand-primary:         #2D2B5D !default; // blue&#13;
+$brand-success:         #5CB85C !default; // green&#13;
+$brand-info:            #FF5E00 !default; // orange (specific to Bondi)&#13;
+$brand-warning:         #FF5E00 !default; // orange&#13;
+$brand-danger:          #D9534F !default; // red&#13;
+&#13;
+//== Scaffolding&#13;
+//&#13;
+//## Settings for some of the most global styles.&#13;
+&#13;
+//** Background color for `&lt;body&gt;`.&#13;
+$body-bg:               $body-bg; // defined in Global Variables&#13;
+&#13;
+//** Global text color on `&lt;body&gt;`.&#13;
+$text-color:            $gray-dark !default;&#13;
+&#13;
+//** Global textual link color.&#13;
+$link-color:            #428BCA !default;&#13;
+//** Link hover color set via `darken()` function.&#13;
+$link-hover-color:      darken($link-color, 15%) !default;&#13;
+//** Link hover decoration.&#13;
+$link-hover-decoration: underline !default;&#13;
+&#13;
+//== Typography&#13;
+//&#13;
+//## Font, line-height, and color for body text, headings, and more.&#13;
+&#13;
+$font-family-sans-serif:  'Source Sans Pro', Helvetica, Arial, sans-serif !default;&#13;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;&#13;
+//** Default monospace fonts for `&lt;code&gt;`, `&lt;kbd&gt;`, and `&lt;pre&gt;`.&#13;
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;&#13;
+$font-family-base:        $font-family-sans-serif !default;&#13;
+&#13;
+$font-size-base:          16px !default;&#13;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px&#13;
+$font-size-small:         12px !default; // ~12px&#13;
+&#13;
+$font-size-h1:            36px !default;&#13;
+$font-size-h2:            25px !default;&#13;
+$font-size-h3:            21px !default;&#13;
+$font-size-h4:            18px !default;&#13;
+$font-size-h5:            $font-size-base !default;&#13;
+$font-size-h6:            12px !default;&#13;
+&#13;
+//** Unit-less `line-height` for use in components like buttons.&#13;
+$line-height-base:        1.4 !default;&#13;
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.&#13;
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px&#13;
+&#13;
+//** By default, this inherits from the `&lt;body&gt;`.&#13;
+$headings-font-family:    inherit !default;&#13;
+$headings-font-weight:    normal !default;&#13;
+$headings-line-height:    1.1 !default;&#13;
+$headings-color:          inherit !default;&#13;
+&#13;
+//== Components&#13;
+//&#13;
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).&#13;
+&#13;
+$padding-base-vertical:     8px !default;&#13;
+$padding-base-horizontal:   12px !default;&#13;
+&#13;
+$padding-large-vertical:    16px !default;&#13;
+$padding-large-horizontal:  20px !default;&#13;
+&#13;
+$padding-small-vertical:    8px !default;&#13;
+$padding-small-horizontal:  12px !default;&#13;
+&#13;
+$padding-xs-vertical:       4px !default;&#13;
+$padding-xs-horizontal:     6px !default;&#13;
+&#13;
+$line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome&#13;
+$line-height-small:         1.5 !default;&#13;
+&#13;
+$border-radius-base:        4px !default;&#13;
+$border-radius-large:       6px !default;&#13;
+$border-radius-small:       3px !default;&#13;
+&#13;
+//** Global color for active items (e.g., navs or dropdowns).&#13;
+$component-active-color:    #fff !default;&#13;
+//** Global background color for active items (e.g., navs or dropdowns).&#13;
+$component-active-bg:       $brand-primary !default;&#13;
+&#13;
+//** Width of the `border` for generating carets that indicate dropdowns.&#13;
+$caret-width-base:          4px !default;&#13;
+//** Carets increase slightly in size for larger components.&#13;
+$caret-width-large:         5px !default;&#13;
+&#13;
+//== Tables&#13;
+//&#13;
+//## Customizes the `.table` component with basic values, each used across all table variations.&#13;
+&#13;
+//** Padding for `&lt;th&gt;`s and `&lt;td&gt;`s.&#13;
+$table-cell-padding:            20px 30px !default;&#13;
+//** Padding for cells in `.table-condensed`.&#13;
+$table-condensed-cell-padding:  10px !default;&#13;
+&#13;
+//** Default background color used for all tables.&#13;
+$table-bg:                      $body-bg-2 !default;&#13;
+//** Background color used for `.table-striped`.&#13;
+$table-bg-accent:               lighten($body-bg-2, 3%) !default;&#13;
+//** Background color used for `.table-hover`.&#13;
+$table-bg-hover:                darken($body-bg-2, 2%) !default;&#13;
+$table-bg-active:               $table-bg-hover !default;&#13;
+&#13;
+//** Border color for table and cell borders.&#13;
+$table-border-color:            darken($body-bg-2, 4%) !default;&#13;
+&#13;
+&#13;
+//== Buttons&#13;
+//&#13;
+//## For each of Bootstrap's buttons, define text, background and border color.&#13;
+&#13;
+$btn-font-weight:                normal !default;&#13;
+&#13;
+$btn-default-color:              $brand-primary !default;&#13;
+$btn-default-bg:                 #fff !default;&#13;
+$btn-default-border:             $brand-primary !default;&#13;
+&#13;
+$btn-primary-color:              #fff !default;&#13;
+$btn-primary-bg:                 $brand-primary !default;&#13;
+$btn-primary-border:             $brand-primary !default;&#13;
+&#13;
+$btn-success-color:              #fff !default;&#13;
+$btn-success-bg:                 $brand-success !default;&#13;
+$btn-success-border:             $brand-success !default;&#13;
+&#13;
+$btn-info-color:                 #fff !default;&#13;
+$btn-info-bg:                    $brand-info !default;&#13;
+$btn-info-border:                $brand-info !default;&#13;
+&#13;
+$btn-warning-color:              #fff !default;&#13;
+$btn-warning-bg:                 $brand-warning !default;&#13;
+$btn-warning-border:             $brand-warning !default;&#13;
+&#13;
+$btn-danger-color:               #fff !default;&#13;
+$btn-danger-bg:                  $brand-danger !default;&#13;
+$btn-danger-border:              $brand-danger !default;&#13;
+&#13;
+$btn-link-disabled-color:        $gray-light !default;&#13;
+&#13;
+// Allows for customizing button radius independently from global border radius&#13;
+$btn-border-radius-base:         $border-radius-base !default;&#13;
+$btn-border-radius-large:        $border-radius-large !default;&#13;
+$btn-border-radius-small:        $border-radius-small !default;&#13;
+&#13;
+&#13;
+//== Forms&#13;
+//&#13;
+//##&#13;
+&#13;
+//** `&lt;input&gt;` background color&#13;
+$input-bg:                       #fff !default;&#13;
+//** `&lt;input disabled&gt;` background color&#13;
+$input-bg-disabled:              darken($body-bg-2, 10%) !default;&#13;
+&#13;
+//** Text color for `&lt;input&gt;`s&#13;
+$input-color:                    $gray-dark !default;&#13;
+//** `&lt;input&gt;` border color&#13;
+$input-border:                   $gray-light !default;&#13;
+&#13;
+// TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4&#13;
+//** Default `.form-control` border radius&#13;
+// This has no effect on `&lt;select&gt;`s in some browsers, due to the limited stylability of `&lt;select&gt;`s in CSS.&#13;
+$input-border-radius:            $border-radius-base !default;&#13;
+//** Large `.form-control` border radius&#13;
+$input-border-radius-large:      $border-radius-large !default;&#13;
+//** Small `.form-control` border radius&#13;
+$input-border-radius-small:      $border-radius-small !default;&#13;
+&#13;
+//** Border color for inputs on focus&#13;
+$input-border-focus:             #66afe9 !default;&#13;
+&#13;
+//** Placeholder text color&#13;
+$input-color-placeholder:        $gray !default;&#13;
+&#13;
+//** Default `.form-control` height&#13;
+$input-height-base:              ($line-height-computed + ($padding-base-vertical * 2) + 2) !default;&#13;
+//** Large `.form-control` height&#13;
+$input-height-large:             (ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2) !default;&#13;
+//** Small `.form-control` height&#13;
+$input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2) !default;&#13;
+&#13;
+//** `.form-group` margin&#13;
+$form-group-margin-bottom:       15px !default;&#13;
+&#13;
+$legend-color:                   $gray-dark !default;&#13;
+$legend-border-color:            #e5e5e5 !default;&#13;
+&#13;
+//** Background color for textual input addons&#13;
+$input-group-addon-bg:           transparent !default;&#13;
+//** Border color for textual input addons&#13;
+$input-group-addon-border-color: $input-border !default;&#13;
+&#13;
+//** Disabled cursor for form controls and buttons.&#13;
+$cursor-disabled:                not-allowed !default;&#13;
+&#13;
+&#13;
+//== Dropdowns&#13;
+//&#13;
+//## Dropdown menu container and contents.&#13;
+&#13;
+//** Background for the dropdown menu.&#13;
+$dropdown-bg:                    #fff !default;&#13;
+//** Dropdown menu `border-color`.&#13;
+$dropdown-border:                rgba(0,0,0,.15) !default;&#13;
+//** Dropdown menu `border-color` **for IE8**.&#13;
+$dropdown-fallback-border:       #ccc !default;&#13;
+//** Divider color for between dropdown items.&#13;
+$dropdown-divider-bg:            rgba(0,0,0,.15) !default;&#13;
+&#13;
+//** Dropdown link text color.&#13;
+$dropdown-link-color:            #555 !default;&#13;
+//** Hover color for dropdown links.&#13;
+$dropdown-link-hover-color:      darken($gray-dark, 5%) !default;&#13;
+//** Hover background for dropdown links.&#13;
+$dropdown-link-hover-bg:         #eee !default;&#13;
+&#13;
+//** Active dropdown menu item text color.&#13;
+$dropdown-link-active-color:     $component-active-color !default;&#13;
+//** Active dropdown menu item background color.&#13;
+$dropdown-link-active-bg:        $component-active-bg !default;&#13;
+&#13;
+//** Disabled dropdown menu item background color.&#13;
+$dropdown-link-disabled-color:   $gray-light !default;&#13;
+&#13;
+//** Text color for headers within dropdown menus.&#13;
+$dropdown-header-color:          $gray-light !default;&#13;
+&#13;
+//** Deprecated `$dropdown-caret-color` as of v3.1.0&#13;
+$dropdown-caret-color:           #000 !default;&#13;
+&#13;
+&#13;
+//-- Z-index master list&#13;
+//&#13;
+// Warning: Avoid customizing these values. They're used for a bird's eye view&#13;
+// of components dependent on the z-axis and are designed to all work together.&#13;
+//&#13;
+// Note: These variables are not generated into the Customizer.&#13;
+&#13;
+$zindex-navbar:            1000 !default;&#13;
+$zindex-dropdown:          1000 !default;&#13;
+$zindex-popover:           1060 !default;&#13;
+$zindex-tooltip:           1070 !default;&#13;
+$zindex-navbar-fixed:      1030 !default;&#13;
+$zindex-modal-background:  1040 !default;&#13;
+$zindex-modal:             1050 !default;&#13;
+&#13;
+&#13;
+//== Media queries breakpoints&#13;
+//&#13;
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.&#13;
+&#13;
+// Extra small screen / phone&#13;
+//** Deprecated `$screen-xs` as of v3.0.1&#13;
+$screen-xs:                  480px !default;&#13;
+//** Deprecated `$screen-xs-min` as of v3.2.0&#13;
+$screen-xs-min:              $screen-xs !default;&#13;
+//** Deprecated `$screen-phone` as of v3.0.1&#13;
+$screen-phone:               $screen-xs-min !default;&#13;
+&#13;
+// Small screen / tablet&#13;
+//** Deprecated `$screen-sm` as of v3.0.1&#13;
+$screen-sm:                  768px !default;&#13;
+$screen-sm-min:              $screen-sm !default;&#13;
+//** Deprecated `$screen-tablet` as of v3.0.1&#13;
+$screen-tablet:              $screen-sm-min !default;&#13;
+&#13;
+// Medium screen / desktop&#13;
+//** Deprecated `$screen-md` as of v3.0.1&#13;
+$screen-md:                  992px !default;&#13;
+$screen-md-min:              $screen-md !default;&#13;
+//** Deprecated `$screen-desktop` as of v3.0.1&#13;
+$screen-desktop:             $screen-md-min !default;&#13;
+&#13;
+// Large screen / wide desktop&#13;
+//** Deprecated `$screen-lg` as of v3.0.1&#13;
+$screen-lg:                  1200px !default;&#13;
+$screen-lg-min:              $screen-lg !default;&#13;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1&#13;
+$screen-lg-desktop:          $screen-lg-min !default;&#13;
+&#13;
+// So media queries don't overlap when required, provide a maximum&#13;
+$screen-xs-max:              ($screen-sm-min - 1) !default;&#13;
+$screen-sm-max:              ($screen-md-min - 1) !default;&#13;
+$screen-md-max:              ($screen-lg-min - 1) !default;&#13;
+&#13;
+&#13;
+//== Grid system&#13;
+//&#13;
+//## Define your custom responsive grid.&#13;
+&#13;
+//** Number of columns in the grid.&#13;
+$grid-columns:              12 !default;&#13;
+//** Padding between columns. Gets divided in half for the left and right.&#13;
+$grid-gutter-width:         30px !default;&#13;
+// Navbar collapse&#13;
+//** Point at which the navbar becomes uncollapsed.&#13;
+$grid-float-breakpoint:     $screen-sm-min !default;&#13;
+//** Point at which the navbar begins collapsing.&#13;
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;&#13;
+&#13;
+&#13;
+//== Container sizes&#13;
+//&#13;
+//## Define the maximum width of `.container` for different screen sizes.&#13;
+&#13;
+// Small screen / tablet&#13;
+$container-tablet:             (720px + $grid-gutter-width) !default;&#13;
+//** For `$screen-sm-min` and up.&#13;
+$container-sm:                 $container-tablet !default;&#13;
+&#13;
+// Medium screen / desktop&#13;
+$container-desktop:            (940px + $grid-gutter-width) !default;&#13;
+//** For `$screen-md-min` and up.&#13;
+$container-md:                 $container-desktop !default;&#13;
+&#13;
+// Large screen / wide desktop&#13;
+$container-large-desktop:      (1140px + $grid-gutter-width) !default;&#13;
+//** For `$screen-lg-min` and up.&#13;
+$container-lg:                 $container-large-desktop !default;&#13;
+&#13;
+&#13;
+//== Navbar&#13;
+//&#13;
+//##&#13;
+&#13;
+// Basics of a navbar&#13;
+$navbar-height:                    $navbar-height; // defined in Global Variables&#13;
+$navbar-margin-bottom:             $line-height-computed !default;&#13;
+$navbar-border-radius:             $border-radius-base !default;&#13;
+$navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;&#13;
+$navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;&#13;
+$navbar-collapse-max-height:       340px !default;&#13;
+&#13;
+$navbar-default-color:             $text-color !default;&#13;
+$navbar-default-bg:                $body-bg !default;&#13;
+$navbar-default-border:            transparent !default;&#13;
+&#13;
+// Navbar links&#13;
+$navbar-default-link-color:                $link-color !default;&#13;
+$navbar-default-link-hover-color:          $link-hover-color !default;&#13;
+$navbar-default-link-hover-bg:             rgba($gray-lighter,0.5) !default;&#13;
+$navbar-default-link-active-color:         $link-color !default;&#13;
+$navbar-default-link-active-bg:            rgba($gray-lighter,0.5) !default;&#13;
+$navbar-default-link-disabled-color:       $gray-light !default;&#13;
+$navbar-default-link-disabled-bg:          transparent !default;&#13;
+&#13;
+// Navbar brand label&#13;
+$navbar-default-brand-color:               $navbar-default-link-color !default;&#13;
+$navbar-default-brand-hover-color:         $navbar-default-link-hover-color !default;&#13;
+$navbar-default-brand-hover-bg:            transparent !default;&#13;
+&#13;
+// Navbar toggle&#13;
+$navbar-default-toggle-hover-bg:           transparent !default;&#13;
+$navbar-default-toggle-icon-bar-bg:        #fff !default;&#13;
+$navbar-default-toggle-border-color:       transparent !default;&#13;
+&#13;
+&#13;
+//=== Inverted navbar&#13;
+// Reset inverted navbar basics&#13;
+$navbar-inverse-color:                      #f2f2f2 !default;&#13;
+$navbar-inverse-bg:                         $brand-primary !default;&#13;
+$navbar-inverse-border:                     transparent !default;&#13;
+&#13;
+// Inverted navbar links&#13;
+$navbar-inverse-link-color:                 #fff !default;&#13;
+$navbar-inverse-link-hover-color:           #fff !default;&#13;
+$navbar-inverse-link-hover-bg:              rgba(255,255,255, 0.1) !default;&#13;
+$navbar-inverse-link-active-color:          #fff !default;&#13;
+$navbar-inverse-link-active-bg:             rgba(255,255,255, 0.1) !default;&#13;
+$navbar-inverse-link-disabled-color:        #444 !default;&#13;
+$navbar-inverse-link-disabled-bg:           transparent !default;&#13;
+&#13;
+// Inverted navbar brand label&#13;
+$navbar-inverse-brand-color:                $navbar-inverse-link-color !default;&#13;
+$navbar-inverse-brand-hover-color:          #fff !default;&#13;
+$navbar-inverse-brand-hover-bg:             transparent !default;&#13;
+&#13;
+// Inverted navbar toggle&#13;
+$navbar-inverse-toggle-hover-bg:            transparent !default;&#13;
+$navbar-inverse-toggle-icon-bar-bg:         #fff !default;&#13;
+$navbar-inverse-toggle-border-color:        transparent !default;&#13;
+&#13;
+&#13;
+//== Navs&#13;
+//&#13;
+//##&#13;
+&#13;
+//=== Shared nav styles&#13;
+$nav-link-padding:                          10px 15px !default;&#13;
+$nav-link-hover-bg:                         $gray-lighter !default;&#13;
+&#13;
+$nav-disabled-link-color:                   $gray-light !default;&#13;
+$nav-disabled-link-hover-color:             $gray-light !default;&#13;
+&#13;
+//== Tabs&#13;
+$nav-tabs-border-color:                     $gray-lighter !default;&#13;
+&#13;
+$nav-tabs-link-hover-border-color:          $brand-primary !default;&#13;
+&#13;
+$nav-tabs-active-link-hover-bg:             $body-bg !default;&#13;
+$nav-tabs-active-link-hover-color:          $brand-primary !default;&#13;
+$nav-tabs-active-link-hover-border-color:   $brand-primary !default;&#13;
+&#13;
+$nav-tabs-justified-link-border-color:            #ddd !default;&#13;
+$nav-tabs-justified-active-link-border-color:     $body-bg !default;&#13;
+&#13;
+//== Pills&#13;
+$nav-pills-border-radius:                   $border-radius-base !default;&#13;
+$nav-pills-active-link-hover-bg:            $component-active-bg !default;&#13;
+$nav-pills-active-link-hover-color:         $component-active-color !default;&#13;
+&#13;
+&#13;
+//== Pagination&#13;
+//&#13;
+//##&#13;
+&#13;
+$pagination-color:                     $link-color !default;&#13;
+$pagination-bg:                        transparent !default;&#13;
+$pagination-border:                    transparent !default;&#13;
+&#13;
+$pagination-hover-color:               $link-hover-color !default;&#13;
+$pagination-hover-bg:                  $gray-lighter !default;&#13;
+$pagination-hover-border:              transparent !default;&#13;
+&#13;
+$pagination-active-color:              #fff !default;&#13;
+$pagination-active-bg:                 $brand-primary !default;&#13;
+$pagination-active-border:             transparent !default;&#13;
+&#13;
+$pagination-disabled-color:            $gray-light !default;&#13;
+$pagination-disabled-bg:               #fff !default;&#13;
+$pagination-disabled-border:           transparent !default;&#13;
+&#13;
+&#13;
+//== Pager&#13;
+//&#13;
+//##&#13;
+&#13;
+$pager-bg:                             $pagination-bg !default;&#13;
+$pager-border:                         $pagination-border !default;&#13;
+$pager-border-radius:                  3px !default;&#13;
+&#13;
+$pager-hover-bg:                       $pagination-hover-bg !default;&#13;
+&#13;
+$pager-active-bg:                      $pagination-active-bg !default;&#13;
+$pager-active-color:                   $pagination-active-color !default;&#13;
+&#13;
+$pager-disabled-color:                 $gray-light !default;&#13;
+&#13;
+&#13;
+//== Jumbotron&#13;
+//&#13;
+//##&#13;
+&#13;
+$jumbotron-padding:              30px !default;&#13;
+$jumbotron-color:                $text-color !default;&#13;
+$jumbotron-bg:                   $body-bg-2 !default;&#13;
+$jumbotron-heading-color:        inherit !default;&#13;
+$jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;&#13;
+$jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;&#13;
+&#13;
+&#13;
+//== Form states and alerts&#13;
+//&#13;
+//## Define colors for form feedback states and, by default, alerts.&#13;
+&#13;
+$state-success-text:             darken(desaturate(adjust-hue($brand-success, 3), 15.64%), 34.31) !default;&#13;
+$state-success-bg:               lighten(saturate($brand-success, 3.67%), 28.24) !default;&#13;
+$state-success-border:           transparent !default;&#13;
+&#13;
+$state-info-text:                darken(desaturate(adjust-hue($brand-info, -4), 20.32%), 44.31) !default;&#13;
+$state-info-bg:                  lighten(saturate(adjust-hue($brand-info, -3), 17.70%), 29.61) !default;&#13;
+$state-info-border:              transparent !default;&#13;
+&#13;
+$state-warning-text:             darken(desaturate(adjust-hue($brand-warning, -4), 20.32%), 44.31) !default;&#13;
+$state-warning-bg:               lighten(saturate(adjust-hue($brand-warning, -3), 17.70%), 29.61) !default;&#13;
+$state-warning-border:           transparent !default;&#13;
+&#13;
+$state-danger-text:              $brand-danger !default;&#13;
+$state-danger-bg:                lighten(saturate(adjust-hue($brand-danger, 354), 42.52%), 42.94) !default;&#13;
+$state-danger-border:            transparent !default;&#13;
+&#13;
+&#13;
+//== Tooltips&#13;
+//&#13;
+//##&#13;
+&#13;
+//** Tooltip max width&#13;
+$tooltip-max-width:           200px !default;&#13;
+//** Tooltip text color&#13;
+$tooltip-color:               #fff !default;&#13;
+//** Tooltip background color&#13;
+$tooltip-bg:                  $gray-dark !default;&#13;
+$tooltip-opacity:             .9 !default;&#13;
+&#13;
+//** Tooltip arrow width&#13;
+$tooltip-arrow-width:         5px !default;&#13;
+//** Tooltip arrow color&#13;
+$tooltip-arrow-color:         $tooltip-bg !default;&#13;
+&#13;
+&#13;
+//== Popovers&#13;
+//&#13;
+//##&#13;
+&#13;
+//** Popover body background color&#13;
+$popover-bg:                          $body-bg-2 !default;&#13;
+//** Popover maximum width&#13;
+$popover-max-width:                   276px !default;&#13;
+//** Popover border color&#13;
+$popover-border-color:                $gray !default;&#13;
+//** Popover fallback border color&#13;
+$popover-fallback-border-color:       $gray !default;&#13;
+&#13;
+//** Popover title background color&#13;
+$popover-title-bg:                    $popover-bg !default;&#13;
+&#13;
+//** Popover arrow width&#13;
+$popover-arrow-width:                 10px !default;&#13;
+//** Popover arrow color&#13;
+$popover-arrow-color:                 $popover-bg !default;&#13;
+&#13;
+//** Popover outer arrow width&#13;
+$popover-arrow-outer-width:           ($popover-arrow-width + 1) !default;&#13;
+//** Popover outer arrow color&#13;
+$popover-arrow-outer-color:           $gray !default;&#13;
+//** Popover outer arrow fallback color&#13;
+$popover-arrow-outer-fallback-color:  $gray !default;&#13;
+&#13;
+&#13;
+//== Labels&#13;
+//&#13;
+//##&#13;
+&#13;
+//** Default label background color&#13;
+$label-default-bg:            $gray-light !default;&#13;
+//** Primary label background color&#13;
+$label-primary-bg:            $brand-primary !default;&#13;
+//** Success label background color&#13;
+$label-success-bg:            lighten(saturate($brand-success, 3.67%), 28.24) !default;&#13;
+//** Info label background color&#13;
+$label-info-bg:               lighten(saturate(adjust-hue($brand-info, -3), 17.70%), 29.61) !default;&#13;
+//** Warning label background color&#13;
+$label-warning-bg:            lighten(saturate(adjust-hue($brand-warning, -3), 17.70%), 29.61) !default;&#13;
+//** Danger label background color&#13;
+$label-danger-bg:             lighten(saturate(adjust-hue($brand-danger, 354), 42.52%), 42.94) !default;&#13;
+&#13;
+//** Default label text color&#13;
+$label-color:                 #fff !default;&#13;
+//** Default text color of a linked label&#13;
+$label-link-hover-color:      #fff !default;&#13;
+&#13;
+&#13;
+//== Modals&#13;
+//&#13;
+//##&#13;
+&#13;
+//** Padding applied to the modal body&#13;
+$modal-inner-padding:         20px !default;&#13;
+&#13;
+//** Padding applied to the modal title&#13;
+$modal-title-padding:         15px !default;&#13;
+//** Modal title line-height&#13;
+$modal-title-line-height:     $line-height-base !default;&#13;
+&#13;
+//** Background color of modal content area&#13;
+$modal-content-bg:                             #fff !default;&#13;
+//** Modal content border color&#13;
+$modal-content-border-color:                   rgba(0,0,0,.2) !default;&#13;
+//** Modal content border color **for IE8**&#13;
+$modal-content-fallback-border-color:          #999 !default;&#13;
+&#13;
+//** Modal backdrop background color&#13;
+$modal-backdrop-bg:           #000 !default;&#13;
+//** Modal backdrop opacity&#13;
+$modal-backdrop-opacity:      .5 !default;&#13;
+//** Modal header border color&#13;
+$modal-header-border-color:   #e5e5e5 !default;&#13;
+//** Modal footer border color&#13;
+$modal-footer-border-color:   $modal-header-border-color !default;&#13;
+&#13;
+$modal-lg:                    900px !default;&#13;
+$modal-md:                    600px !default;&#13;
+$modal-sm:                    300px !default;&#13;
+&#13;
+&#13;
+//== Alerts&#13;
+//&#13;
+//## Define alert colors, border radius, and padding.&#13;
+&#13;
+$alert-padding:               15px !default;&#13;
+$alert-border-radius:         $border-radius-base !default;&#13;
+$alert-link-font-weight:      bold !default;&#13;
+&#13;
+$alert-success-bg:            $state-success-bg !default;&#13;
+$alert-success-text:          $state-success-text !default;&#13;
+$alert-success-border:        $state-success-border !default;&#13;
+&#13;
+$alert-info-bg:               $state-info-bg !default;&#13;
+$alert-info-text:             $state-info-text !default;&#13;
+$alert-info-border:           $state-info-border !default;&#13;
+&#13;
+$alert-warning-bg:            $state-warning-bg !default;&#13;
+$alert-warning-text:          $state-warning-text !default;&#13;
+$alert-warning-border:        $state-warning-border !default;&#13;
+&#13;
+$alert-danger-bg:             $state-danger-bg !default;&#13;
+$alert-danger-text:           $state-danger-text !default;&#13;
+$alert-danger-border:         $state-danger-border !default;&#13;
+&#13;
+&#13;
+//== Progress bars&#13;
+//&#13;
+//##&#13;
+&#13;
+//** Background color of the whole progress component&#13;
+$progress-bg:                 #f5f5f5 !default;&#13;
+//** Progress bar text color&#13;
+$progress-bar-color:          $body-bg-2 !default;&#13;
+//** Variable for setting rounded corners on progress bar.&#13;
+$progress-border-radius:      $border-radius-base !default;&#13;
+&#13;
+//** Default progress bar color&#13;
+$progress-bar-bg:             $brand-primary !default;&#13;
+//** Success progress bar color&#13;
+$progress-bar-success-bg:     $brand-success !default;&#13;
+//** Warning progress bar color&#13;
+$progress-bar-warning-bg:     $brand-warning !default;&#13;
+//** Danger progress bar color&#13;
+$progress-bar-danger-bg:      $brand-danger !default;&#13;
+//** Info progress bar color&#13;
+$progress-bar-info-bg:        $brand-info !default;&#13;
+&#13;
+&#13;
+//== List group&#13;
+//&#13;
+//##&#13;
+&#13;
+//** Background color on `.list-group-item`&#13;
+$list-group-bg:                 $body-bg-2 !default;&#13;
+//** `.list-group-item` border color&#13;
+$list-group-border:             darken($body-bg-2, 4%) !default;&#13;
+//** List group border radius&#13;
+$list-group-border-radius:      $border-radius-base !default;&#13;
+&#13;
+//** Background color of single list items on hover&#13;
+$list-group-hover-bg:           lighten($panel-primary-heading-bg, 40%) !default;&#13;
+//** Text color of active list items&#13;
+$list-group-active-color:       $component-active-color !default;&#13;
+//** Background color of active list items&#13;
+$list-group-active-bg:          $component-active-bg !default;&#13;
+//** Border color of active list elements&#13;
+$list-group-active-border:      $list-group-active-bg !default;&#13;
+//** Text color for content within active list items&#13;
+$list-group-active-text-color:  lighten($list-group-active-bg, 40%) !default;&#13;
+&#13;
+//** Text color of disabled list items&#13;
+$list-group-disabled-color:      $gray-light !default;&#13;
+//** Background color of disabled list items&#13;
+$list-group-disabled-bg:         $gray-lighter !default;&#13;
+//** Text color for content within disabled list items&#13;
+$list-group-disabled-text-color: $list-group-disabled-color !default;&#13;
+&#13;
+$list-group-link-color:         $link-color !default;&#13;
+$list-group-link-hover-color:   $link-hover-color !default;&#13;
+$list-group-link-heading-color: $headings-color !default;&#13;
+&#13;
+&#13;
+//== Panels&#13;
+//&#13;
+//##&#13;
+&#13;
+$panel-bg:                    $body-bg-2 !default;&#13;
+$panel-body-padding:          15px !default;&#13;
+$panel-heading-padding:       15px !default;&#13;
+$panel-footer-padding:        15px !default;&#13;
+$panel-border-radius:         $border-radius-base !default;&#13;
+&#13;
+//** Border color for elements within panels&#13;
+$panel-inner-border:          transparent !default;&#13;
+$panel-footer-bg:             $body-bg-2 !default;&#13;
+&#13;
+$panel-default-text:          $text-color !default;&#13;
+$panel-default-border:        transparent !default;&#13;
+$panel-default-heading-bg:    $body-bg-2 !default;&#13;
+&#13;
+$panel-primary-text:          #fff !default;&#13;
+$panel-primary-border:        transparent !default;&#13;
+$panel-primary-heading-bg:    $brand-primary !default;&#13;
+&#13;
+$panel-success-text:          #fff !default;&#13;
+$panel-success-border:        transparent !default;&#13;
+$panel-success-heading-bg:    $brand-success !default;&#13;
+&#13;
+$panel-info-text:             #fff !default;&#13;
+$panel-info-border:           transparent !default;&#13;
+$panel-info-heading-bg:       $brand-info !default;&#13;
+&#13;
+$panel-warning-text:          #fff !default;&#13;
+$panel-warning-border:        transparent !default;&#13;
+$panel-warning-heading-bg:    $brand-warning !default;&#13;
+&#13;
+$panel-danger-text:           #fff !default;&#13;
+$panel-danger-border:         transparent !default;&#13;
+$panel-danger-heading-bg:     $brand-danger !default;&#13;
+&#13;
+&#13;
+//== Thumbnails&#13;
+//&#13;
+//##&#13;
+&#13;
+//** Padding around the thumbnail image&#13;
+$thumbnail-padding:           4px !default;&#13;
+//** Thumbnail background color&#13;
+$thumbnail-bg:                $body-bg !default;&#13;
+//** Thumbnail border color&#13;
+$thumbnail-border:            $table-border-color !default;&#13;
+//** Thumbnail border radius&#13;
+$thumbnail-border-radius:     $border-radius-base !default;&#13;
+&#13;
+//** Custom text color for thumbnail captions&#13;
+$thumbnail-caption-color:     $text-color !default;&#13;
+//** Padding around the thumbnail caption&#13;
+$thumbnail-caption-padding:   9px !default;&#13;
+&#13;
+&#13;
+//== Wells&#13;
+//&#13;
+//##&#13;
+&#13;
+$well-bg:                     $jumbotron-bg !default;&#13;
+$well-border:                 transparent !default;&#13;
+&#13;
+&#13;
+//== Badges&#13;
+//&#13;
+//##&#13;
+&#13;
+$badge-color:                 #fff !default;&#13;
+//** Linked badge text color on hover&#13;
+$badge-link-hover-color:      #fff !default;&#13;
+$badge-bg:                    $btn-primary-bg !default;&#13;
+&#13;
+//** Badge text color in active nav link&#13;
+$badge-active-color:          $link-color !default;&#13;
+//** Badge background color in active nav link&#13;
+$badge-active-bg:             #fff !default;&#13;
+&#13;
+$badge-font-weight:           bold !default;&#13;
+$badge-line-height:           1 !default;&#13;
+$badge-border-radius:         10px !default;&#13;
+&#13;
+&#13;
+//== Breadcrumbs&#13;
+//&#13;
+//##&#13;
+&#13;
+$breadcrumb-padding-vertical:   8px !default;&#13;
+$breadcrumb-padding-horizontal: 0px !default;&#13;
+//** Breadcrumb background color&#13;
+$breadcrumb-bg:                 $body-bg-2 !default;&#13;
+//** Breadcrumb text color&#13;
+$breadcrumb-color:              $gray-light !default;&#13;
+//** Text color of current page in the breadcrumb&#13;
+$breadcrumb-active-color:       $gray-dark !default;&#13;
+//** Textual separator for between breadcrumb elements&#13;
+$breadcrumb-separator:          "/" !default;&#13;
+&#13;
+&#13;
+//== Carousel&#13;
+//&#13;
+//##&#13;
+&#13;
+$carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6) !default;&#13;
+&#13;
+$carousel-control-color:                      #fff !default;&#13;
+$carousel-control-width:                      15% !default;&#13;
+$carousel-control-opacity:                    .5 !default;&#13;
+$carousel-control-font-size:                  20px !default;&#13;
+&#13;
+$carousel-indicator-active-bg:                #fff !default;&#13;
+$carousel-indicator-border-color:             #fff !default;&#13;
+&#13;
+$carousel-caption-color:                      #fff !default;&#13;
+&#13;
+&#13;
+//== Close&#13;
+//&#13;
+//##&#13;
+&#13;
+$close-font-weight:           bold !default;&#13;
+$close-color:                 inherit !default;&#13;
+$close-text-shadow:           none !default;&#13;
+&#13;
+&#13;
+//== Code&#13;
+//&#13;
+//##&#13;
+&#13;
+$code-color:                  #c7254e !default;&#13;
+$code-bg:                     #f9f2f4 !default;&#13;
+&#13;
+$kbd-color:                   #fff !default;&#13;
+$kbd-bg:                      #333 !default;&#13;
+&#13;
+$pre-bg:                      #f5f5f5 !default;&#13;
+$pre-color:                   $gray-dark !default;&#13;
+$pre-border-color:            #ccc !default;&#13;
+$pre-scrollable-max-height:   340px !default;&#13;
+&#13;
+&#13;
+//== Type&#13;
+//&#13;
+//##&#13;
+&#13;
+//** Horizontal offset for forms and lists.&#13;
+$component-offset-horizontal: 180px !default;&#13;
+//** Text muted color&#13;
+$text-muted:                  $gray-light !default;&#13;
+//** Abbreviations and acronyms border color&#13;
+$abbr-border-color:           $gray-light !default;&#13;
+//** Headings small color&#13;
+$headings-small-color:        $gray-light !default;&#13;
+//** Blockquote small color&#13;
+$blockquote-small-color:      $gray !default;&#13;
+//** Blockquote font size&#13;
+$blockquote-font-size:        ($font-size-base * 1.25) !default;&#13;
+//** Blockquote border color&#13;
+$blockquote-border-color:     $table-border-color !default;&#13;
+//** Page header border color&#13;
+$page-header-border-color:    $gray-lighter !default;&#13;
+//** Width of horizontal description list titles&#13;
+$dl-horizontal-offset:        $component-offset-horizontal !default;&#13;
+//** Point at which .dl-horizontal becomes horizontal&#13;
+$dl-horizontal-breakpoint:    $grid-float-breakpoint !default;&#13;
+//** Horizontal line color.&#13;
+$hr-border:                   $table-border-color !default;&#13;
+&#13;
+&#13;
+// 4: Madrid+ Variables&#13;
+// --------------------------------------------------&#13;
+&#13;
+// To get service status messages consistent with brand colors&#13;
+$primary: $brand-primary;&#13;
+$warning: $brand-warning;&#13;
+$success: $brand-success;&#13;
+$info: $brand-info;&#13;
+$danger: $brand-danger;&#13;
+$input-border-placeholder: white;&#13;
+&#13;
+// Service Catalog panel hover highlight&#13;
+$panel-list-item: lighten(desaturate(adjust-hue($panel-primary-heading-bg, -6), 20.79%), 58.04) !default;&#13;
+&#13;
+$multiple-issues-color: #7070B3;&#13;
+$no-issue-color: lighten($brand-success, 40%);&#13;
+$planned-maintenance-color: lighten($brand-info, 35%);&#13;
+$service-degredation-color: lighten($brand-warning, 40%);&#13;
+$service-outage-color: lighten($brand-danger, 45%);&#13;
+&#13;
+$no-issue-border-color: $brand-success;&#13;
+$planned-maintenance-border-color: $brand-info;&#13;
+$service-degredation-border-color: $brand-warning;&#13;
+$service-outage-border-color: $brand-danger;&#13;
+&#13;
+$no-issues-text: $state-success-text;&#13;
+$planned-maintenance-text: $state-info-text;&#13;
+$service-degredation-text: $state-info-text;&#13;
+$service-outage-text: $state-danger-bg;&#13;
+&#13;
+$login-btn-bg: $btn-primary-bg;&#13;
+$login-btn-border: $btn-primary-border;&#13;
+&#13;
+$qa-tag-color: $state-info-text;&#13;
+$qa-tag-bg: $state-info-bg;&#13;
+$qa-tag-border: $state-info-bg;&#13;
+$qa-tag-hover-color: darken($qa-tag-color, 10%);&#13;
+$qa-tag-hover-bg: darken($qa-tag-bg, 10%);&#13;
+&#13;
+$qa-thread-tag-color: $state-info-text;&#13;
+$qa-thread-tag-bg: $state-info-bg;&#13;
+$qa-thread-tag-hover-color: darken($qa-thread-tag-color, 10%);&#13;
+$qa-thread-tag-hover-bg: darken($qa-thread-tag-bg, 10%);&#13;
+&#13;
+$qa-panel-link-color: $link-color;&#13;
+$select2-container-active: $input-border-focus;&#13;
+&#13;
+$not-webkit-outline-color: $input-border-focus;&#13;
+$webkit-outline-color: $input-border-focus;&#13;
+&#13;
+$data-table-selected: $brand-primary;&#13;
+&#13;
+$button-selected-color: $btn-primary-bg;&#13;
+$widget-editor-fa-bg: $brand-primary;&#13;
+&#13;
+$input-border-tab-focus: $input-border-focus;&#13;
+&#13;
+$fav-star-color: $brand-warning;&#13;
+$fav-star-color-off: #ffffff;&#13;
+$fav-star-outline-color: #6b611f;&#13;
+$fav-star-outline: -1px 0 $fav-star-outline-color, 0 1px $fav-star-outline-color, 1px 0$fav-star-outline-color, 0 -1px $fav-star-outline-color;&#13;
+&#13;
+$sc-field-error-color: #1a424b;&#13;
+$qa-star-color-on: $brand-warning;&#13;
+$qa-star-color-off: #ffffff;&#13;
+&#13;
+$accessible-placeholder-gray: #565656;&#13;
+</css_variables><footer/><footer_fixed>false</footer_fixed><header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header><name>Bondi M+</name><navbar_fixed>true</navbar_fixed><sys_class_name>sp_theme</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 16:18:52</sys_created_on><sys_id>7b29d2b0db50c81090c6d6a75e961957</sys_id><sys_mod_count>27</sys_mod_count><sys_name>Bondi M+</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_theme_7b29d2b0db50c81090c6d6a75e961957</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-03 17:42:17</sys_updated_on></sp_theme></record_update>]]></payload>
+<payload_hash>2037855810</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>41783305db500c1090c6d6a75e96197b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d92b71e5a0000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Bondi M+</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_guid>ebd5ff416d500c1053a13d2e540c1777</update_guid>
+<update_guid_history>ebd5ff416d500c1053a13d2e540c1777:2037855810,6c853fcd82100c10520c0836f27201da:-619645346,99923fcdc6100c1064b3a62d48057dcf:1376512440,a8207fc94f100c1093932f4828acbf6b:-1223608357,02ed6b49d8100c1074377a5ce0ff743d:1747729196,71269749e1dcc81030abedaee230aff5:135094253,3706df0942dcc81082cea270485ad1ef:-1509249398,e4f51f0959dcc810e9a722d87f12d4f9:34539124,2c545bc5e3dcc810ed9709ea7030ef17:135094253,1fc317c573dcc810aaccde2ea75447a9:-2109814348,3b039385dadcc81014422a4801514da4:1273888234,2de2db4502dcc8102bd510a00f9434db:-1526511709,9adf8bc147dcc810d949fc90d211fc10:-1279036157,8c1e47c147dcc8105e233ad7ccd29c18:714787478,e70a47cd0f9cc810f77dee659ef208c3:454902413,0e198f8dc49cc810cee152533153aae7:1029444975,f7b80f8d099cc810d0a080f4a5d163e7:-142546055,46765ffc84d0c8106f00229faf4fd92f:-466763106,bf5693704a14c810c12fec4e5ad2d5e3:1833204807,90d59ffce8d0c8100e57d54a37d4c55c:485669934,74c2d37ceed0c8108f9581a8cde13ebb:-820810083,1bfd7afc1d90c810dab402c75e3c9a45:-1538221021,e0b03a740d90c810caa4d64d77ce6680:-1508197072,96dfea345e90c810b941594bebb36bf0:1142384870,cd1e6af06090c81094f8e72277bd61d5:643128522,83bc5ab4a850c810017913e3888f2df7:-2055783795,0f3b96748450c810ae5187be13c96cc8:1118091031,3f29d2b0b550c810a2106136b82d6c58:-1466414726</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_94cb5a74db50c81090c6d6a75e96195d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>.form-control {&#13;
+  box-shadow: none !important;&#13;
+}&#13;
+</css><name>Bondi Form adjustments</name><sys_class_name>sp_css</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 16:35:01</sys_created_on><sys_id>94cb5a74db50c81090c6d6a75e96195d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bondi Form adjustments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_94cb5a74db50c81090c6d6a75e96195d</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-02 16:35:01</sys_updated_on></sp_css></record_update>]]></payload>
+<payload_hash>410162517</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>45783305db500c1090c6d6a75e96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8d532c0a0000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Bondi Form adjustments</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>54ec16b43550c81077a069d029768578</update_guid>
+<update_guid_history>54ec16b43550c81077a069d029768578:410162517</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_d72ea234db90c81090c6d6a75e96193c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>3</order><sp_css_include display_value="Widget-specific Theming">0a6da630db90c81090c6d6a75e961934</sp_css_include><sp_theme display_value="Bondi M+">7b29d2b0db50c81090c6d6a75e961957</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 17:50:35</sys_created_on><sys_id>d72ea234db90c81090c6d6a75e96193c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Widget-specific Theming.Bondi M+</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_d72ea234db90c81090c6d6a75e96193c</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-02 19:05:59</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>-990746691</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>49783305db500c1090c6d6a75e961979</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8ddd62670000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Widget-specific Theming.Bondi M+</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>7f6fbe30b1d0c810d7fa234aca9aac2c</update_guid>
+<update_guid_history>7f6fbe30b1d0c810d7fa234aca9aac2c:-990746691,5b2ea2340590c810d2a31267beaf443d:-488904634</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_57ec9ab4db50c81090c6d6a75e9619f4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>5</order><sp_css_include display_value="Bondi Form adjustments">14ec16b4db50c81090c6d6a75e961976</sp_css_include><sp_theme display_value="Bondi M+">7b29d2b0db50c81090c6d6a75e961957</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 16:35:13</sys_created_on><sys_id>57ec9ab4db50c81090c6d6a75e9619f4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Bondi Form adjustments.Bondi M+</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_57ec9ab4db50c81090c6d6a75e9619f4</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-03 14:31:18</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>445304140</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>4d783305db500c1090c6d6a75e961978</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d920845650000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Bondi Form adjustments.Bondi M+</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>3d2acfcde09cc8106ee2abc27717dd79</update_guid>
+<update_guid_history>3d2acfcde09cc8106ee2abc27717dd79:445304140,1fec9ab43450c810092a01211e2f6ef5:537353815</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_7c8d6af0db90c81090c6d6a75e9619d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>// override SP admin elements&#13;
+&#13;
+body &gt; .dropdown &gt; .dropdown-menu &gt; li[style] {&#13;
+  background-color: $gray-dark !important;&#13;
+  color: #fff !important;&#13;
+}&#13;
+&#13;
+// WE20 widget options editor&#13;
+.modal .option {&#13;
+  border: none !important;&#13;
+}&#13;
+.modal .option.option-new {&#13;
+  background-color: $panel-default-heading-bg !important;&#13;
+  color: $panel-default-text !important;&#13;
+}</css><name>Override SP admin elements</name><sys_class_name>sp_css</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 17:48:01</sys_created_on><sys_id>7c8d6af0db90c81090c6d6a75e9619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Override SP admin elements</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_7c8d6af0db90c81090c6d6a75e9619d0</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-02 17:48:01</sys_updated_on></sp_css></record_update>]]></payload>
+<payload_hash>1358324409</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>81783305db500c1090c6d6a75e96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8d9603bd0000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Override SP admin elements</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>b99d66f0c590c810fa3bcbc68ae726cb</update_guid>
+<update_guid_history>b99d66f0c590c810fa3bcbc68ae726cb:1358324409</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_a0505b05dbdcc81090c6d6a75e9619de</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>0</order><sp_css_include display_value="Source Sans Pro 400,700">84409f05dbdcc81090c6d6a75e961928</sp_css_include><sp_theme display_value="Bondi M+">7b29d2b0db50c81090c6d6a75e961957</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-03 14:58:15</sys_created_on><sys_id>a0505b05dbdcc81090c6d6a75e9619de</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Source Sans Pro 400,700.Bondi M+</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_a0505b05dbdcc81090c6d6a75e9619de</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-03 14:58:33</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>-522954022</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>85783305db500c1090c6d6a75e961979</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d922135f50000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Source Sans Pro 400,700.Bondi M+</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>8560df053edcc810db6333f79340a133</update_guid>
+<update_guid_history>8560df053edcc810db6333f79340a133:-522954022,68505b0591dcc810b74e8d43f4930edf:1186030784</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_572ea234db90c81090c6d6a75e96193a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>10</order><sp_css_include display_value="Override SP admin elements">799d66f0db90c81090c6d6a75e9619c9</sp_css_include><sp_theme display_value="Bondi M+">7b29d2b0db50c81090c6d6a75e961957</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 17:50:35</sys_created_on><sys_id>572ea234db90c81090c6d6a75e96193a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Override SP admin elements.Bondi M+</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_572ea234db90c81090c6d6a75e96193a</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-03 14:58:43</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>876130488</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>89783305db500c1090c6d6a75e961978</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d92215d8b0000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Override SP admin elements.Bondi M+</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>6760df055ddcc8102bdd881ef3120c66</update_guid>
+<update_guid_history>6760df055ddcc8102bdd881ef3120c66:876130488,b56f7e30dcd0c810c181f8619d01fbfc:-978585049,1f2ea2349890c81044c2f87ee6b0483b:1678024655</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_include_84409f05dbdcc81090c6d6a75e961928</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>Source Sans Pro 400, 700</name><source>url</source><sp_css/><sys_class_name>sp_css_include</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-03 14:58:15</sys_created_on><sys_id>84409f05dbdcc81090c6d6a75e961928</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Source Sans Pro 400, 700</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_include_84409f05dbdcc81090c6d6a75e961928</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-03 17:46:16</sys_updated_on><url>https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;display=swap</url></sp_css_include></record_update>]]></payload>
+<payload_hash>-1157432784</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>8d783305db500c1090c6d6a75e96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d92bac28c0000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Source Sans Pro 400, 700</target_name>
+<type>CSS Include</type>
+<update_domain>global</update_domain>
+<update_guid>71c673c108500c10d457646535639999</update_guid>
+<update_guid_history>71c673c108500c10d457646535639999:-1157432784,a4505b05bbdcc81047606c5223b807dd:-2130813640</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_3d7eb230dbd0c81090c6d6a75e9619a8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>1</order><sp_css_include display_value="Normalize Form Elements M+">732c5a74db50c81090c6d6a75e961957</sp_css_include><sp_theme display_value="Bondi M+">7b29d2b0db50c81090c6d6a75e961957</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 19:01:45</sys_created_on><sys_id>3d7eb230dbd0c81090c6d6a75e9619a8</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Normalize Form Elements M+.Bondi M+</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_3d7eb230dbd0c81090c6d6a75e9619a8</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-02 19:05:33</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>-2090434363</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>c1783305db500c1090c6d6a75e961978</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8ddcfe710000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Normalize Form Elements M+.Bondi M+</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>2d5f7e3044d0c810b59c4579318e17b8</update_guid>
+<update_guid_history>2d5f7e3044d0c810b59c4579318e17b8:-2090434363,f17eb23070d0c810c4c302ead7d416aa:135829068</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_91103a74db90c81090c6d6a75e961977</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>6</order><sp_css_include display_value="Bondi SP Elements">71007234db90c81090c6d6a75e961914</sp_css_include><sp_theme display_value="Bondi M+">7b29d2b0db50c81090c6d6a75e961957</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 17:58:55</sys_created_on><sys_id>91103a74db90c81090c6d6a75e961977</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Bondi SP Elements.Bondi M+</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_91103a74db90c81090c6d6a75e961977</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-03 14:31:11</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>-143909197</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>c1783305db500c1090c6d6a75e961979</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d92082ada0000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Bondi SP Elements.Bondi M+</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>102a47cd439cc810c9726295dd791ac7</update_guid>
+<update_guid_history>102a47cd439cc810c9726295dd791ac7:-143909197,59103a742e90c810e10ec60baa12c978:-1768261665</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_ea2a1e34db50c81090c6d6a75e961915</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>// Buttons&#13;
+&#13;
+// undo colors on default for input-group-btn&#13;
+.input-group-btn .btn-default {&#13;
+  border-color: #ccc;&#13;
+  color: $text-color;&#13;
+}&#13;
+&#13;
+// Tabs&#13;
+&#13;
+.nav-tabs &gt; li {&#13;
+  &gt; a {&#13;
+  	border: none;&#13;
+  	border-bottom: 3px solid transparent;&#13;
+    margin-right: 0;&#13;
+    &amp;:hover,&#13;
+    &amp;:focus {&#13;
+      border-bottom-color: $nav-tabs-link-hover-border-color;&#13;
+      background-color: transparent;&#13;
+  	}&#13;
+  }&#13;
+  &amp;.disabled:hover &gt; a,&#13;
+  &amp;[disabled]:hover &gt; a {&#13;
+  	border-bottom-color: mix(#fff, $nav-tabs-link-hover-border-color, 50%);&#13;
+  }&#13;
+  &amp;.open &gt; a,&#13;
+  &amp;.open &gt; a:hover,&#13;
+  &amp;.open &gt; a:focus,&#13;
+  &amp;.active &gt; a,&#13;
+  &amp;.active &gt; a:hover,&#13;
+  &amp;.active &gt; a:focus,&#13;
+  &gt; a.sc-tab-a,&#13;
+  &gt; a.sc-tab-a:hover,&#13;
+  &gt; a.sc-tab-a:focus {&#13;
+    background: transparent;&#13;
+    border: none;&#13;
+    border-bottom: 3px solid $nav-tabs-active-link-hover-border-color;&#13;
+  }&#13;
+}&#13;
+&#13;
+// Containers&#13;
+&#13;
+.panel {&#13;
+&#13;
+  box-shadow: none !important;&#13;
+  border: none !important;&#13;
+  color: $text-color;&#13;
+  background-color: transparent;&#13;
+  &#13;
+  &gt; .panel-heading,&#13;
+  &gt; .panel-footer {&#13;
+  	border: none;&#13;
+    .panel-title {&#13;
+      font-weight: 600;&#13;
+      line-height: 1.1;&#13;
+    }&#13;
+  }&#13;
+  &#13;
+  &gt; *:first-child {&#13;
+    border-top-right-radius: $panel-border-radius;&#13;
+    border-top-left-radius: $panel-border-radius;&#13;
+  }&#13;
+  &gt; *:last-child {&#13;
+    border-bottom-right-radius: $panel-border-radius;&#13;
+    border-bottom-left-radius: $panel-border-radius;&#13;
+  }&#13;
+  &#13;
+  // .panels-container used in sc_request_and_approvals and sc-recent-popular for nested panels&#13;
+  &#13;
+  .panels-container .panel {&#13;
+    background-color: $body-bg;&#13;
+    .panel-body, .panel-footer {&#13;
+      background-color: transparent;&#13;
+    }&#13;
+    &amp;.panel-default .panel-header {&#13;
+      background-color: transparent;&#13;
+    }&#13;
+  }&#13;
+  &#13;
+}&#13;
+&#13;
+.panel.panel-default {&#13;
+  &gt; * {&#13;
+    background-color: $body-bg-2;&#13;
+  }&#13;
+}&#13;
+&#13;
+.panel &gt; .b-b,&#13;
+.panel .b-b[role="listitem"]:last-child {&#13;
+  border-bottom: none !important;&#13;
+}&#13;
+  &#13;
+.panel-primary &gt; .panel-body,&#13;
+.panel-primary &gt; .panel-heading {&#13;
+    background-color: $brand-primary;&#13;
+}&#13;
+.panel-success &gt; .panel-body,&#13;
+.panel-success &gt; .panel-heading {&#13;
+    background-color: $brand-success;&#13;
+}&#13;
+.panel-info &gt; .panel-body,&#13;
+.panel-info &gt; .panel-heading {&#13;
+    background-color: $brand-info;&#13;
+}&#13;
+.panel-warning &gt; .panel-body,&#13;
+.panel-warning &gt; .panel-heading {&#13;
+    background-color: $brand-warning;&#13;
+}&#13;
+.panel-danger &gt; .panel-body,&#13;
+.panel-danger &gt; .panel-heading {&#13;
+    background-color: $brand-danger;&#13;
+}&#13;
+&#13;
+.panel-primary, .panel-success, .panel-info, .panel-warning, .panel-danger {&#13;
+  &#13;
+  &gt; .panel-body {&#13;
+  &#13;
+    // invert text in context-colored panel body&#13;
+    color: #fff;&#13;
+    .text-muted {&#13;
+      color: rgba(#fff, .7);&#13;
+    }&#13;
+    a.text-muted:hover,&#13;
+    [ng-click].text-muted:hover,&#13;
+    a:hover .text-muted,&#13;
+    [ng-click]:hover .text-muted {&#13;
+      color: rgba(#fff, .9);&#13;
+    }&#13;
+    a, [ng-click] {&#13;
+      color: rgba(#fff, .85);&#13;
+      &amp;:hover {&#13;
+        color: #fff;&#13;
+      }&#13;
+    }&#13;
+    &#13;
+    // add some padding back to list-groups&#13;
+    &gt; .list-group &gt; .list-group-item {&#13;
+      padding: 5px 10px;&#13;
+    }&#13;
+    &gt; .list-group-item {&#13;
+      padding: 5px 10px;&#13;
+    }&#13;
+    &#13;
+    // un-invert text in elements placed within panel body with their own bg&#13;
+    .list-group,&#13;
+    .list-group-item,&#13;
+    .table,&#13;
+    .nav,&#13;
+    .filter-breadcrumbs,&#13;
+    .panel {&#13;
+      color: $text-color;&#13;
+      .text-muted {&#13;
+        color: $text-muted;&#13;
+      }&#13;
+      a.text-muted:hover,&#13;
+      [ng-click].text-muted:hover,&#13;
+      a:hover .text-muted,&#13;
+      [ng-click]:hover .text-muted {&#13;
+        color: $link-hover-color;&#13;
+      }&#13;
+      a, [ng-click] {&#13;
+        color: $link-color;&#13;
+        &amp;:hover {&#13;
+          color: $link-hover-color;&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+    &#13;
+  }&#13;
+}&#13;
+&#13;
+// CUSTOM class - add .panel-no-context-fill to .panel to undo Bondi context-color-filled panel&#13;
+&#13;
+.panel.panel-no-context-fill {&#13;
+  &gt; .panel-body {&#13;
+    color: $text-color;&#13;
+    background-color: $body-bg-2;&#13;
+    .text-muted {&#13;
+      color: $text-muted;&#13;
+    }&#13;
+    a.text-muted:hover {&#13;
+      color: $link-hover-color;&#13;
+    }&#13;
+  }&#13;
+  &gt; .panel-heading + .panel-body {&#13;
+    padding: $panel-body-padding;&#13;
+  }&#13;
+}&#13;
+&#13;
+&#13;
+// CUSTOM context class for panel-no-panel&#13;
+.panel-no-panel {&#13;
+  background-color: transparent !important;&#13;
+  box-shadow: none !important;&#13;
+  border-color: transparent !important;&#13;
+  color: inherit;&#13;
+  &amp; &gt; * {&#13;
+    padding-left: 0;&#13;
+    padding-right: 0;&#13;
+    background-color: transparent;&#13;
+    border-color: transparent;&#13;
+  }&#13;
+  &amp; &gt; .panel-body {&#13;
+    padding: 0;&#13;
+  }&#13;
+  &amp; &gt; .list-group &gt; .list-group-item {&#13;
+  	padding-left: 0;&#13;
+    padding-right: 0;&#13;
+    background-color: transparent;&#13;
+    border-color: transparent;&#13;
+  }&#13;
+}&#13;
+&#13;
+.well {&#13;
+  box-shadow: none !important;&#13;
+}&#13;
+&#13;
+// Tables&#13;
+&#13;
+.table, table.table.item-table {&#13;
+  background-color: $table-bg;&#13;
+  &gt; thead tr th {&#13;
+    padding: 10px 30px;&#13;
+  }&#13;
+  &gt; tbody tr td {&#13;
+    padding: $table-cell-padding;&#13;
+    border-top: 1px solid $table-border-color;&#13;
+  }&#13;
+}</css><name>Bondi Bootstrap components</name><sys_class_name>sp_css</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 16:27:02</sys_created_on><sys_id>ea2a1e34db50c81090c6d6a75e961915</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bondi Bootstrap components</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_ea2a1e34db50c81090c6d6a75e961915</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-02 16:27:02</sys_updated_on></sp_css></record_update>]]></payload>
+<payload_hash>739088432</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>c9783305db500c1090c6d6a75e96197a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8d4bdd240000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Bondi Bootstrap components</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>930b1e34a050c8107dae7d5ded35311f</update_guid>
+<update_guid_history>930b1e34a050c8107dae7d5ded35311f:739088432</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_7b2c5a74db50c81090c6d6a75e961956</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>// defaults for variables that need to be set first –&#13;
+// these are Bootstrap defaults, can be set in theme.&#13;
+&#13;
+$gray-base:    #000 !default;&#13;
+$gray:         lighten($gray-base, 33.5%) !default;&#13;
+$gray-lighter: lighten($gray-base, 93.5%) !default;&#13;
+&#13;
+$font-size-base: 14px !default;&#13;
+$padding-base-vertical: 6px !default;&#13;
+$padding-base-horizontal: 12px !default;&#13;
+$border-radius-base: 4px !default;&#13;
+$input-group-addon-bg: $gray-lighter !default;&#13;
+$input-color: $gray !default;&#13;
+$input-border: #ccc !default;&#13;
+$input-border-radius: $border-radius-base !default;&#13;
+&#13;
+// best to leave these alone in most cases&#13;
+$line-height-base: 1.428571429 !default;&#13;
+$line-height-computed: floor(($font-size-base * $line-height-base)) !default;&#13;
+$input-height-base: ($line-height-computed + ($padding-base-vertical * 2) + 2) !default;&#13;
+&#13;
+.select2-container .select2-choice,&#13;
+.select2-container-multi .select2-choices {&#13;
+  border-radius: $input-border-radius;&#13;
+  min-height: $input-height-base;&#13;
+  line-height: $line-height-base;&#13;
+  font-size: 1em;&#13;
+  background-color: $input-bg;&#13;
+  border: 1px solid $input-border;&#13;
+}&#13;
+.type-reference .field-has-reference {&#13;
+  display: block;&#13;
+  border: 1px solid $input-border;&#13;
+  margin-left: 1px;&#13;
+  button {&#13;
+    padding-top: $padding-base-vertical;&#13;
+    padding-bottom: $padding-base-vertical;&#13;
+  }&#13;
+  .select2-reference {&#13;
+    display: inline-block;&#13;
+    .select2-choice {&#13;
+      border: none;&#13;
+      min-height: $input-height-base - 2;&#13;
+      border-radius: 0 ($border-radius-base - 1) ($border-radius-base - 1) 0;&#13;
+    }&#13;
+  }&#13;
+  .add-on button.btn {&#13;
+    display: inline-block;&#13;
+    min-height: $input-height-base - 2;&#13;
+    border-radius: ($border-radius-base - 1) 0 0 ($border-radius-base - 1);&#13;
+    border: none;&#13;
+    background-color: $input-group-addon-bg;&#13;
+    color: $input-color;&#13;
+    &amp;:hover {&#13;
+      background-color: darken($input-group-addon-bg, 10%);&#13;
+    }&#13;
+  }&#13;
+}&#13;
+.select2-container .select2-choice {&#13;
+  padding: $padding-base-vertical 0 $padding-base-vertical $padding-base-horizontal;&#13;
+  .select2-arrow b {&#13;
+    background-position-y: $padding-base-vertical + ($line-height-computed / 2) - 12px;&#13;
+  }&#13;
+  abbr {&#13;
+    top: $padding-base-vertical + ($line-height-computed / 2) - 6px;&#13;
+  }&#13;
+}&#13;
+.select2-container-multi .select2-choices .select2-search-choice {&#13;
+  line-height: inherit;&#13;
+}</css><name>Normalize Form Elements M+</name><sys_class_name>sp_css</sys_class_name><sys_created_by>jacob</sys_created_by><sys_created_on>2019-10-02 16:31:58</sys_created_on><sys_id>7b2c5a74db50c81090c6d6a75e961956</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Normalize Form Elements M+</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_7b2c5a74db50c81090c6d6a75e961956</sys_update_name><sys_updated_by>jacob</sys_updated_by><sys_updated_on>2019-10-02 16:32:12</sys_updated_on></sp_css></record_update>]]></payload>
+<payload_hash>-2095515022</payload_hash>
+<remote_update_set display_value="Bondi Theme 2.0 for Madrid+">8d783305db500c1090c6d6a75e961977</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>jacob</sys_created_by>
+<sys_created_on>2019-10-03 17:53:35</sys_created_on>
+<sys_id>cd783305db500c1090c6d6a75e961979</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d8d5098080000001</sys_recorded_at>
+<sys_updated_by>jacob</sys_updated_by>
+<sys_updated_on>2019-10-03 17:53:35</sys_updated_on>
+<table/>
+<target_name>Normalize Form Elements M+</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>c33c16b40650c81078a4df331571996e</update_guid>
+<update_guid_history>c33c16b40650c81078a4df331571996e:-2095515022,732cd2b4d250c8107ed287922f55d38d:-834070232</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
